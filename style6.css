@@ -1,0 +1,86 @@
+h1 {
+text-align:center;
+color:rgb(205, 73, 50);
+}
+div.b{
+width:820px;
+height:640px;
+margin:0 auto;
+padding:10px;
+background-color:#F5F5F5;
+font-size:18pt;
+text-align:justify;
+}
+div.c{
+float:left;
+width:400px;
+height:310px; 
+margin-right:10px;
+font-size:16pt;
+text-align:center;
+}
+body{
+background-image:url("../images/16j.jpg");
+color:#708090;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight:bold;
+}
+.prosto_information{
+display: flex;
+position: relative;
+top:-40px;
+}
+img.i2{
+color: yellow;
+width:400px;
+padding:10px;
+margin-left:120px;
+}
+p{
+text-align:center;
+}
+.nu{
+display: flex;
+margin-left:880px;
+}
+@media (max-width:700px){
+h1{
+color: rgb(255, 0, 98);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.prosto_information{
+display: flex;
+position: absolute;
+top:400px;
+color: rgb(250, 167, 12);
+}
+body{
+background-color:rgb(0, 68, 255);
+background-image:none;
+}
+img{
+width:100%;
+
+margin-left: none;
+}
+.p1{
+text-align:center;
+margin-right:30%;
+}
+img{
+padding: 0%;
+}
+div.b{
+width: 98%;
+background: none;
+}
+a{
+padding-top:-100px;
+}
+.nu{
+position: relative;
+top:160px;
+left:-600px;
+width: 30%;
+}
+}

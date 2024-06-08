@@ -1,0 +1,121 @@
+h1 {
+text-align:center;
+}
+div.b{
+display: flex;
+position: relative;
+top:40px;
+width:820px;
+height:620px;
+margin:0 auto;
+padding:10px;
+background-image: linear-gradient(110deg,
+rgba(0, 245, 94, 0.9),
+rgba(233, 54, 0, 0.9));
+font-size:18pt;
+text-align:justify;
+}
+div.c{
+display: flex;
+float:left;
+width:400px;
+height:310px; 
+margin-right:10px;
+font-size:16pt;
+text-align:center;
+}
+div.ca{
+display: flex;
+float:left;
+width:400px;
+height:310px; 
+margin-right:10px;
+font-size:16pt;
+text-align:center;
+}
+div.cb{
+display: flex;
+float:left;
+width:400px;
+height:310px; 
+margin-right:10px;
+font-size:16pt;
+text-align:center;
+}
+img.i1 {
+width:400px;
+padding:5px;
+}
+body{
+background-image:url("../images/bgaa.jpg");
+color:#da411b;
+font-family:Monotype Corsiva;
+font-weight:bold;
+}
+img.i2{
+width:500px;
+padding:10px;
+float:left;
+}
+img.i3{
+height:250px;
+}
+p{
+text-align:center;
+padding:10px;
+}
+.cac{
+display: flex;
+flex-direction: row;
+position: relative;
+top:300px;
+left:-825px;
+height:500px;
+}
+.cbc{
+display: flex;
+flex-direction: row;
+position: relative;
+top:10px;
+left:-10px;
+height:500px;
+}
+@media (max-width:700px){
+div.b{
+height:1200px;
+width:500px;
+display: flex;
+flex-direction: column;
+}
+.cac{
+position:relative;
+top:60px;
+left: 10px;
+display: flex;
+flex-direction: column;
+}
+.cbc{
+position:relative;
+top:30px;
+left: 10px;
+display: flex;
+flex-direction: column;
+}
+div.ca{
+display: flex;
+position: relative;
+top:40px;
+left: 40px;
+}
+div.cb{
+display: flex;
+position: relative;
+left:40px;
+top:40px;
+}
+.cbc{
+display: flex;
+position: relative;
+left: 40px;
+}
+}

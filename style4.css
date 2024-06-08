@@ -1,0 +1,86 @@
+h1 {
+text-align:center;
+color:rgb(205, 73, 50);
+}
+div.b{
+width:820px;
+height:640px;
+margin:0 auto;
+padding:10px;
+background-color:#F5F5F5;
+font-size:18pt;
+text-align:justify;
+}
+div.c{
+float:left;
+width:400px;
+height:310px; 
+margin-right:10px;
+font-size:16pt;
+text-align:center;
+}
+body{
+background-image:url("../images/1j1.jpg");
+color:#708090;
+font-family:Monotype Corsiva;
+font-weight:bold;
+}
+.main_info{
+display: flex;
+position: relative;
+top:-20px;
+}
+img.i2{
+color: yellow;
+width:350px;
+padding:10px;
+margin-left:120px;
+}
+p{
+text-align:center;
+}
+.klavisha{
+display: flex;
+margin-left:880px;
+}
+@media (max-width:700px){
+h1{
+color: blue;
+}
+.main_info{
+display: flex;
+position: absolute;
+top:400px;
+left:-5px;
+color: wheat;
+}
+body{
+background-color:rgb(51, 245, 3);
+background-image:none;
+}
+img{
+width:100%;
+margin-right:20%;
+}
+.p1{
+text-align:center;
+margin-right:30%;
+}
+img{
+padding: 0;
+margin: 0;
+}
+div.b{
+width: 98%;
+background: none;
+}
+a{
+padding-top:-100px;
+}
+.klavisha{
+position: relative;
+top:160px;
+left:-600px;
+width: 30%;
+}
+}
